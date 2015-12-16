@@ -16,6 +16,8 @@
 		840C62E31C1EAAE700A2EBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C62E11C1EAAE700A2EBA3 /* LaunchScreen.storyboard */; };
 		840C62EE1C1EAAE700A2EBA3 /* ShoppingCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C62ED1C1EAAE700A2EBA3 /* ShoppingCarTests.m */; };
 		840C62F91C1EAAE800A2EBA3 /* ShoppingCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C62F81C1EAAE800A2EBA3 /* ShoppingCarUITests.m */; };
+		840C63091C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C63071C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.m */; };
+		840C630A1C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840C63081C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		840C62F41C1EAAE800A2EBA3 /* ShoppingCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840C62F81C1EAAE800A2EBA3 /* ShoppingCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarUITests.m; sourceTree = "<group>"; };
 		840C62FA1C1EAAE800A2EBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C63061C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCarTableViewCell.h; sourceTree = "<group>"; };
+		840C63071C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCarTableViewCell.m; sourceTree = "<group>"; };
+		840C63081C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShoppingCarTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,9 @@
 				840C62D41C1EAAE700A2EBA3 /* AppDelegate.m */,
 				840C62D61C1EAAE700A2EBA3 /* ViewController.h */,
 				840C62D71C1EAAE700A2EBA3 /* ViewController.m */,
+				840C63061C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.h */,
+				840C63071C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.m */,
+				840C63081C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.xib */,
 				840C62D91C1EAAE700A2EBA3 /* Main.storyboard */,
 				840C62DF1C1EAAE700A2EBA3 /* Assets.xcassets */,
 				840C62E11C1EAAE700A2EBA3 /* LaunchScreen.storyboard */,
@@ -251,6 +259,7 @@
 			files = (
 				840C62E31C1EAAE700A2EBA3 /* LaunchScreen.storyboard in Resources */,
 				840C62E01C1EAAE700A2EBA3 /* Assets.xcassets in Resources */,
+				840C630A1C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.xib in Resources */,
 				840C62DB1C1EAAE700A2EBA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +287,7 @@
 			files = (
 				840C62D81C1EAAE700A2EBA3 /* ViewController.m in Sources */,
 				840C62D51C1EAAE700A2EBA3 /* AppDelegate.m in Sources */,
+				840C63091C1EAB1A00A2EBA3 /* ShoppingCarTableViewCell.m in Sources */,
 				840C62DE1C1EAAE700A2EBA3 /* ShoppingCar.xcdatamodeld in Sources */,
 				840C62D21C1EAAE700A2EBA3 /* main.m in Sources */,
 			);
